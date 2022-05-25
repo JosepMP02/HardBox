@@ -1,0 +1,84 @@
+:root { --jumbotron-padding-y: 3rem; }
+.jumbotron { padding-top: var(--jumbotron-padding-y); padding-bottom: var(--jumbotron-padding-y); margin-bottom: 0px; background-color: rgb(255, 255, 255); }
+@media (min-width: 768px) {
+  .jumbotron { padding-top: calc(var(--jumbotron-padding-y) * 2); padding-bottom: calc(var(--jumbotron-padding-y) * 2); }
+}
+.jumbotron p:last-child { margin-bottom: 0px; }
+.jumbotron-heading { font-weight: 300; }
+.jumbotron .container { max-width: 40rem; }
+footer { padding-top: 3rem; padding-bottom: 3rem; }
+footer p { margin-bottom: 0.25rem; }
+.box-shadow { box-shadow: rgba(0, 0, 0, 0.05) 0px 0.25rem 0.75rem; }
+
+.flag{
+  border-bottom: solid 1px #ccc;
+}
+.album{
+  border-bottom: solid 1px rgb(0, 0, 0);
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  color: white;
+  text-align: center;
+}
+
+label.form-label{
+  display: table-cell;
+}
+footer .btn-primary{
+  padding: 0; 
+   margin: 0;
+}
+.footernav{
+  max-height: 6vh;
+}
+footer .btn-primary{
+  background-color:#212529;
+  border-color: black;
+  border-radius: 0%;
+}
+.main{
+  background-color: #F8F9FA;
+}
+.challenges{
+  text-align: right;
+}
+.my-2{
+
+  margin-top: 1rem;
+}
+@media only screen and (min-width: 992px) {
+  .footer{
+    display: none;
+  }
+
+
+}
+/* Extra small devices (phones, 600px and down) 
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) 
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {...}*/
+
+
+.nav-link {
+  font-weight: bolder;
+
+  color: #fff;
+
+}
